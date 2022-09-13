@@ -27,7 +27,7 @@ async def gen_link_s(bot, message):
         return await message.reply('𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝙾𝚁 𝙰 𝙵𝙸𝙻𝙴. 𝙸 𝚆𝙸𝙻𝙻 𝙶𝙸𝚅𝙴 𝚈𝙾𝚄 𝙰 𝚂𝙷𝙰𝚁𝙰𝙱𝙻𝙴 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝙻𝙸𝙽𝙺')
     file_type = replied.media
     if file_type not in ["video", 'audio', 'document']:
-        return await message.reply("𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝙴𝙳 𝙼𝙴𝙳𝙸𝙰")
+        return await message.reply("𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝙴𝙳 MEDIA")
     if message.has_protected_content and message.chat.id not in ADMINS:
         return await message.reply("𝙾𝙺 𝙱𝚁𝙾")
     file_id, ref = unpack_new_file_id((getattr(replied, file_type)).file_id)
