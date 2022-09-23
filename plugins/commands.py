@@ -85,7 +85,7 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ᗩᗞᗞ ᗰᗴ Ꭲᝪ Ꭹᝪᑌᖇ Ꮐᖇᝪᑌᑭ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🌿 𝐆𝐫𝐨𝐮𝐩 🌿', url='https://t.me/MaSTeR_filims'),
-            InlineKeyboardButton('💥  𝐨𝐰𝐧𝐞𝐫 💥', ', url='https://t.me/Master_brooi')
+            InlineKeyboardButton('💥  𝐨𝐰𝐧𝐞𝐫 💥',  url='https://t.me/Master_brooi')
             ],[      
             InlineKeyboardButton('♻️ 𝐇𝐞𝐥𝐩 ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ 𝐀𝐛𝐨𝐮𝐭 ♻️', callback_data='about')
