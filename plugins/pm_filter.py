@@ -556,8 +556,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="180", callback_data="180"),
-                        InlineKeyboardButton(text="90", callback_data="90"),
+                     InlineKeyboardButton(text="180", callback_data="180"),
+                     InlineKeyboardButton(text="90", callback_data="90"),
                     ],
                     [InlineKeyboardButton(text="270", callback_data="270")],
                     ],
