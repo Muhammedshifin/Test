@@ -13,6 +13,21 @@ from database.ia_filterdb import Media
 from database.users_chats_db import db
 from info import SESSION, API_ID, API_HASH, BOT_TOKEN, LOG_STR
 from utils import temp
+from telegram import ChatAction,InlineKeyboardButton, InlineKeyboardMarkup
+
+from telegram.ext.dispatcher import run_async
+
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters,CallbackQueryHandler,PicklePersistence
+
+import logging
+
+import os
+
+from functools import wraps
+
+import requests
+
+
 
 class Bot(Client):
 
