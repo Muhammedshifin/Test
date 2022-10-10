@@ -22,7 +22,7 @@ class OCR:
 
             return "Error"
 
-Footer
+
 
 
 
