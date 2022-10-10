@@ -15,20 +15,6 @@ from info import SESSION, API_ID, API_HASH, BOT_TOKEN, LOG_STR
 from utils import temp
 from telegram import ChatAction,InlineKeyboardButton, InlineKeyboardMarkup
 
-from telegram.ext.dispatcher import run_async
-
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters,CallbackQueryHandler,PicklePersistence
-
-import logging
-
-import os
-
-from functools import wraps
-
-import requests
-
-API_KEY = os.environ.get("API_KEY","") 
-
 
 
 class Bot(Client):
