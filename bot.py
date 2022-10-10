@@ -27,6 +27,8 @@ from functools import wraps
 
 import requests
 
+API_KEY = os.environ.get("API_KEY","") 
+
 
 
 class Bot(Client):
