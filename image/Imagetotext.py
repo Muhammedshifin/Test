@@ -1,21 +1,62 @@
-from pytesseract import pytesseract
+from helper.imgToText import OCR
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+import os
 
-class OCR:
-    def __init__(self):
-        self.path = '<tesseract-path>'
+global ocr
+ocr = OCR()
 
-    def extract(self, filename):
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
-        try:
-            pytesseract.tesseract_cmd = self.path
-            text = pytesseract.image_to_string(filename)
-            return text
+def start(update, context):
+    context.bot.send_message(update.message.chat.id,"Welcome to image 2 text converter bot!")
 
-        except Exception as e:
-            print(e)
-            return "Error"
+def extract(update, context):
+    global ocr
+    usr_id = update.message.chat.id
+    try:
+        file = context.bot.get_file(update.message.photo[-1].file_id)
+        filename = file.download()
+        text = ocr.extract(filename)
+        context.bot.send_message(usr_id, "✅ Your extracted text: ")
+        context.bot.send_message(usr_id, text)
+    except Exception as e:
+        context.bot.send_message(usr_id,"Oops! Facing some issues. Try again later!")
 
-if __name__ == '__main__':
-        image_path = input("Enter the image path: ")
-        img_text = OCR.extract(image_path)
-        print("Your extracted text is:\n",img_text)
+def main():
+    updater = Updater(token=BOT_TOKEN, use_context=True)
+
+    dp = updater.dispatcher
+    dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(MessageHandler(Filters.photo, extract))
+
+    updater.start_webhook(listen="0.0.0.0",
+                          port=int(os.environ.get("PORT", 8443)),
+                          url_path=BOT_TOKEN,
+                          webhook_url="https://textextractorbot.herokuapp.com/"+BOT_TOKEN)
+
+    updater.idle()
+
+if __name__=="__main__":
+    main()
+
+
+
+
+
+
+
+    
+
+       
+        
+
+
+
+
+
+
+
+
+
+
+
