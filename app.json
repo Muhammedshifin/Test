@@ -108,13 +108,7 @@
             "value": "True",
             "required": false
         }
-        "API_KEY":{
-            "description":"Your Api key from https://ocr.space/ocrapi",
-             "required":"True"
-             
-            
-             
-            
+        
     },
     "addons": [],
     "buildpacks": [{
