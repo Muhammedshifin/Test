@@ -36,3 +36,4 @@ logger = logging.getLogger(__name__)
 )
 async def ocr(client, message):
     replied = message.reply_to_message
+    if not replied:
