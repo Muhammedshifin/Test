@@ -49,9 +49,9 @@ def convert_image(update,context):
                   InlineKeyboardButton("Chinese", callback_data='chs')
                  ],
                  [
-                 InlineKeyboardButton("Croatian", callback_data='hrv'),
-                 InlineKeyboardButton("Danish", callback_data='dan')
-                 InlineKeyboardButton("Dutch", callback_data='dut')
+                  InlineKeyboardButton("Croatian", callback_data='hrv'),
+                  InlineKeyboardButton("Danish", callback_data='dan')
+                  InlineKeyboardButton("Dutch", callback_data='dut')
                  ],
                  [
                  InlineKeyboardButton("English", callback_data='eng'),
