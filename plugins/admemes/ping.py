@@ -51,8 +51,8 @@ async def ajax(_, message):
     
     
 @Client.on_message(filters.command("myre", COMMAND_HAND_LER) & f_onw_fliter)
- async def ajax(_, message):
-     await message.reply_text(MYRE)
+async def ajax(_, message):
+    await message.reply_text(MYRE)
 
 
 
