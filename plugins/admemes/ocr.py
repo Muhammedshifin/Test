@@ -34,3 +34,4 @@ logger = logging.getLogger(__name__)
     filters.command("ocr") &
     f_onw_fliter
 )
+async def oct(client, message):
