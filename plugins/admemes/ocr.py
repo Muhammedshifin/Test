@@ -31,3 +31,4 @@ logger = logging.getLogger(__name__)
 @send_typing_action
 @Client.on_message(
     filters.command("telegraph") &
+    f_onw_fliter
