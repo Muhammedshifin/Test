@@ -35,3 +35,4 @@ logger = logging.getLogger(__name__)
     f_onw_fliter
 )
 async def ocr(client, message):
+    replied = message.reply_to_message
