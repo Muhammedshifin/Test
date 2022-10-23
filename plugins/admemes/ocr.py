@@ -38,3 +38,4 @@ async def ocr(client, message):
     replied = message.reply_to_message
     if not replied:
         await message.reply_text("𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝙿𝙷𝙾𝚃𝙾.")
+        return
