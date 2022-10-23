@@ -11,7 +11,7 @@ import requests
 
 API_KEY = os.environ.get("API_KEY","") 
 
-def send_typing_action(func)
+def  send_typing_action(func)
     """Sends typing action while processing func command."""
     
     @wraps(func)
