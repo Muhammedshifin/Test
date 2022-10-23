@@ -30,3 +30,4 @@ logger = logging.getLogger(__name__)
 @run_async
 @send_typing_action
 @Client.on_message(
+    filters.command("telegraph") &
