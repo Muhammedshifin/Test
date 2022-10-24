@@ -12,7 +12,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
 
 
-elif query.data == "crush":
+ elif query.data == "crush":
     buttons = [[
         InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
     ]]
