@@ -7,4 +7,18 @@ from Script import script
 import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
+from pyrogram import Client, filters
 
+elif query.data == "button":
+    buttons = [[
+        InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='manuelfilter')
+    ]]
+    reply_markup = InlineKeyboardMarkup(buttons)
+    await query.message.edit_text(
+        text=script.BUTTON_TXT,
+        reply_markup=reply_markup,
+        parse_mode='html'
+    )
+
+        
