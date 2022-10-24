@@ -80,6 +80,25 @@ Note:- Give a user details
 
 <b>𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴</b>
 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://youtube.com/channel/UCA1Xxivy6psEbFVXIz_TZfg><b>𝐌𝐚𝐒𝐓𝐞𝐑</b></a>"""
+    CRUSH_TXT =  """<b>MY CRUSH DETAILS..❤️</b>
+    
+Name : Fathima
+Age : 23
+place : Heroku
+Father : Not Available 
+Note : Dont propose She She is My girl fried""'
+
+
+
+
+
+
+
+
+
+
+
+    
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
