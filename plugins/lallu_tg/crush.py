@@ -23,7 +23,7 @@ Thank You"""
 @Client.on_message(filters.command("crush"))
 async def aboutcrush(client, message):
         buttons= [[
-             InlineKeyboardButton('♥️  𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 𝐛𝐮𝐲 ♥️', url='https://youtu.be/kB9TkCs8cX0')
+             InlineKeyboardButton('♥️ 𝐅𝐚𝐭𝐡𝐢𝐦𝐚 ♥️', url='https://t.me/File_store_MsT_Bot')
              ],[
              InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
              InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
