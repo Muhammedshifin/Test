@@ -13,6 +13,7 @@ REPO = "ആകാശത്തു നോക്കി ഇരുന്നോ ഇപ
 CHANNEL = "<b>𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻</b> ›› https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA\n\n<b>𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› https://t.me/OpusTechz</b>\n\n<b>𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› https://t.me/MWUpdatez</b>"
 AJAX = "<b>𝙱𝙾𝚃 ›› https://t.me/Elsaa_MsT_bot</b>"
 MYRE = "പോടാ മൈരേ പൊലയാടി മോനെ"
+PURE = "പൂമാനം"
 # -- Constants End -- #
 
 
@@ -50,7 +51,7 @@ async def ajax(_, message):
     await message.reply_text(AJAX)
     
     
-@Client.on_message(filters.command("myre", COMMAND_HAND_LER) & f_onw_fliter)
+@Client.on_message(filters.command("pure", COMMAND_HAND_LER) & f_onw_fliter)
 async def ajax(_, message):
     await message.reply_text(MYRE)
     
