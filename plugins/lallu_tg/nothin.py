@@ -12,7 +12,7 @@ from pyrogram import Client, filters
 
 elif query.data == "button":
     buttons = [[
-        InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='manuelfilter')
+        InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await query.message.edit_text(
