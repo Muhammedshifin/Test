@@ -13,7 +13,8 @@ from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerId
 from database.users_chats_db import db
 import logging
 
- elif query.data == "crush":
+)
+elif query.data == "crush":
     buttons = [[
         InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
     ]]
