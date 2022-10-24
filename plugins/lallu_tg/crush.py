@@ -6,6 +6,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 
 # -- Constants -- #
 PHOTO = "https://telegra.ph/file/9a33ba9ab6b3b3352e276.jpg"
+CRUSH_TXT = """MY CRUSH DETAILS..❤️
+Name : Fathima
+Nick : Pathusz
+Age : 3 months 
+Father : Not Available 
+Notice : She is My Girl Freind
+Not propose She
+Thank You"""
 # -- Constants End -- #
 
 
