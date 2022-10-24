@@ -10,7 +10,7 @@ from database.connections_mdb import active_connection, all_connections, delete_
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
 
-elif query.data == "button":
+elif query.data == "crush":
     buttons = [[
         InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
     ]]
