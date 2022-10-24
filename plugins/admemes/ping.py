@@ -51,12 +51,12 @@ async def ajax(_, message):
     await message.reply_text(AJAX)
     
     
-@Client.on_message(filters.command("pure", COMMAND_HAND_LER) & f_onw_fliter)
+@Client.on_message(filters.command("myre", COMMAND_HAND_LER) & f_onw_fliter)
 async def ajax(_, message):
     await message.reply_text(MYRE)
     
     
-@Client.on_message(filters.command("myre", COMMAND_HAND_LER) & f_onw_fliter)
+@Client.on_message(filters.command("pure", COMMAND_HAND_LER) & f_onw_fliter)
 async def ajax(_, message):
     await message.reply_text(PURE)
    
