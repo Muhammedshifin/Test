@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
-from Script import script
+from crush import crush
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 # -- Constants -- #
@@ -28,7 +28,7 @@ async def aboutcrush(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
            photo=(PHOTO),
-           caption=script.ABOUT_TXT.format(message.from_user.mention),
+           caption=crush.CRUSH_TXT.format(message.from_user.mention),
            reply_markup=reply_markup,
         )
           
