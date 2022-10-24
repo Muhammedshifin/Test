@@ -239,7 +239,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('subscribe', url='https://youtube.com/channel/UCA1Xxivy6psEbFVXIz_TZfg') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('Group Helper', url='https://t.me/Elsaa_MaSTeR_BoT') ] ] ),
 
         protect_content=True if pre == 'filep' else False,
         )
