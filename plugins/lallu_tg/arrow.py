@@ -6,7 +6,7 @@ from info import COMMAND_HAND_LER
 from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 # EMOJI CONSTANTS
-DART_E_MOJI = "🎯"
+DART_E_MOJI = "https://telegra.ph/file/9a33ba9ab6b3b3352e276.jpg"
 # EMOJI CONSTANTS
 
 
