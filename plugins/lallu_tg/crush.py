@@ -9,8 +9,8 @@ PHOTO = "https://telegra.ph/file/9a33ba9ab6b3b3352e276.jpg"
 # -- Constants End -- #
 
 
-@Client.on_message(filters.command("about"))
-async def aboutme(client, message):
+@Client.on_message(filters.command("crush"))
+async def aboutcrush(client, message):
         buttons= [[
              InlineKeyboardButton('♥️  𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 𝐛𝐮𝐲 ♥️', url='https://youtu.be/kB9TkCs8cX0')
              ],[
