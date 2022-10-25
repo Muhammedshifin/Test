@@ -31,7 +31,7 @@ async def aboutcrush(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
            photo=(PHOTO),
-           caption=script.ABOUT_TXT.format(message.from_user.mention),
+           caption=script.CRUSHP_TXT.format(message.from_user.mention),
            reply_markup=reply_markup,
         )
           
