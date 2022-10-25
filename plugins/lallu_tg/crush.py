@@ -34,5 +34,6 @@ async def aboutcrush(client, message):
            caption=script.CRUSHP_TXT.format(message.from_user.mention),
            reply_markup=reply_markup,
         )
-          
+
+
 
