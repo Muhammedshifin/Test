@@ -29,7 +29,7 @@ async def aboutcrush(client, message):
         ]]
         reply_markup = InlineKeybordMarkup(buttons)
         await message. reply_photo(
-           photo=(PHOTO1)
-           caption=script.OWNER_TXT1.format(message.from_user.mention),
-           reply_markup=reply_markup,
+         photo=(PHOTO1)
+         caption=script.OWNER_TXT1.format(message.from_user.mention),
+         reply_markup=reply_markup,
         )
