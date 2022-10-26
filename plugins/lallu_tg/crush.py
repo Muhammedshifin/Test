@@ -28,7 +28,7 @@ async def aboutcrush(client, message):
              InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐',callback_data='close_data')
         ]]
         reply_markup = InlineKeybordMarkup(buttons)
-        await message. reply_photo(
+        await message.reply_photo(
          photo=(PHOTO1)
          caption=script.OWNER_TXT1.format(message.from_user.mention),
          reply_markup=reply_markup,
