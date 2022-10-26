@@ -34,6 +34,7 @@ async def aboutcrush(client, message):
            photo=(PHOTO)
            caption=script.CRUSHP_TXT.format(message.from_user.mention),
            reply_markup=reply_markup,
+           parse_mode='html'
         )
 
 @Client.on_message(filters.command("owner"))
