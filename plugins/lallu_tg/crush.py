@@ -47,4 +47,5 @@ async def aboutcrush(client, message):
         await message. reply_photo(
            photo=()
            caption=script.NOTHING.format(message.from_user.mention),
+           reply_markup=reply_markup
         )
