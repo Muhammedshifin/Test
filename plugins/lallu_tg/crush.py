@@ -31,10 +31,10 @@ async def aboutcrush(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
-           photo=(PHOTO)
-           caption=script.CRUSHP_TXT.format(message.from_user.mention),
-           reply_markup=reply_markup,
-           parse_mode='html'
+            photo=(PHOTO)
+            caption=script.CRUSHP_TXT.format(message.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
 
 @Client.on_message(filters.command("owner"))
