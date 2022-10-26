@@ -31,12 +31,12 @@ async def aboutcrush(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
-           photo=(PHOTO1)
+           photo=(PHOTO)
            caption=script.CRUSHP_TXT.format(message.from_user.mention),
            reply_markup=reply_markup,
         )
 
-@Client.on_message(filters.command("crush"))
+@Client.on_message(filters.command("owner"))
 async def aboutcrush(client, message):
         buttons= [[
              InlineKeyboardButton('OWNER', url='https')
@@ -45,7 +45,7 @@ async def aboutcrush(client, message):
         ]]
         reply_markup = InlineKeybordMarkup(buttons)
         await message. reply_photo(
-           photo=()
+           photo=(PHOTO1)
            caption=script.NOTHING.format(message.from_user.mention),
-           reply_markup=reply_markup
+           reply_markup=reply_markup,
         )
