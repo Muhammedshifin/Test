@@ -17,6 +17,7 @@ Father : Not Available
 Notice : She is My Girl Freind
 Not propose She
 Thank You"""
+PHOTO1 = "https://telegra.ph/file/70f9918fad55aea9b43fe.jpg"
 # -- Constants End -- #
 
 
