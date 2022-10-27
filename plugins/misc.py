@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
 PHOTO = "https://telegra.ph/file/d6cd8386ae2147c648fc8.jpg"
+PHOTO1 = "https://telegra.ph/file/70f9918fad55aea9b43fe.jpg"
 
 @Client.on_message(filters.command('id'))
 async def showid(client, message):
@@ -75,7 +76,7 @@ async def aboutme(client, message):
             parse_mode='html'
         )
 
-@Client.on_message(filters.command("crush"))
+@Client.on_message(filters.command("owner"))
 async def aboutme(client, message):
         buttons= [[
             InlineKeyboardButton('♥️ 𝐅𝐚𝐭𝐡𝐢𝐦𝐚 ♥️', url='https://t.me/File_store_MsT_Bot')
@@ -85,10 +86,10 @@ async def aboutme(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
-        photo=(PHOTO),    
-        caption=script.CRUSHP_TXT.format(message.from_user.mention),
+        photo=(PHOTO1),    
+        caption=script.OWNER1_TXT.format(message.from_user.mention),
         reply_markup=reply_markup
-        parse_mode='html
+        parse_mode='html'
     )
 
 @Client.on_message(filters.command(["info"]))
