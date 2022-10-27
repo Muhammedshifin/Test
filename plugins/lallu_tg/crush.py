@@ -21,7 +21,7 @@ async def aboutow(client, message):
            caption=script.OWNER1_TXT.format(message.from_user.mention),
            reply_markup=reply_markup,
            parse_mode='html'
-      )
+       )
        
 
                  
