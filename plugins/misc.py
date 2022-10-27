@@ -89,8 +89,8 @@ async def aboutme(client, message):
         photo=(PHOTO1),    
         caption=script.OWNER1_TXT.format(message.from_user.mention),
         reply_markup=reply_markup
-        parse_mode='html'
     )
+    
 
 @Client.on_message(filters.command(["info"]))
 async def who_is(client, message):
