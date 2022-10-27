@@ -74,6 +74,22 @@ async def aboutme(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+        Client.on_message(filters.command("crush"))
+
+async def aboutme(client, message):
+        buttons= [[
+            InlineKeyboardButton('♥️ 𝐅𝐚𝐭𝐡𝐢𝐦𝐚 ♥️', url='https://t.me/File_store_MsT_Bot')
+            ],[
+            InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
+            InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_photo(
+        photo=(PHOTO),    
+        caption=script.CRUSHP_TXT.format(message.from_user.mention),
+        reply_markup=reply_markup
+        parse_mode='html
+    )
 
 @Client.on_message(filters.command(["info"]))
 async def who_is(client, message):
