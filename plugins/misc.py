@@ -74,8 +74,8 @@ async def aboutme(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        Client.on_message(filters.command("crush"))
 
+@Client.on_message(filters.command("crush"))
 async def aboutme(client, message):
         buttons= [[
             InlineKeyboardButton('♥️ 𝐅𝐚𝐭𝐡𝐢𝐦𝐚 ♥️', url='https://t.me/File_store_MsT_Bot')
