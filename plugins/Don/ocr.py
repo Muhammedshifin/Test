@@ -3,6 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import os
 
 global ocr
+ocr = OCR()
 
 BOT_TOKEN = "5725740361:AAHitxRAsrRD2PKU5tQWwQcjeCH20iesKMc"
 
