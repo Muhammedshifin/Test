@@ -4,7 +4,7 @@ import os
 
 global ocr
 
-
+BOT_TOKEN = "5725740361:AAHitxRAsrRD2PKU5tQWwQcjeCH20iesKMc"
 
 
 
