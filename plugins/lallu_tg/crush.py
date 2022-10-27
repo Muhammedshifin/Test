@@ -7,8 +7,8 @@ import logging
 
 PHOTO = 
 
-@Client.on_message(filters.command("crush"))
-async def aboutme(client, message):
+@Client.on_message(filters.command("owner"))
+async def aboutow(client, message):
         buttons= [[
             InlineKeyboardButton('♥️ 𝐅𝐚𝐭𝐡𝐢𝐦𝐚 ♥️', url='https://t.me/File_store_MsT_Bot')
             ],[
