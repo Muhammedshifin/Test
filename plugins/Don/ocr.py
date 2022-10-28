@@ -33,8 +33,8 @@ def extract(update, context):
                             url_path=BOT_TOKEN,
                             webhook_url="https://textextractorbot.herokuapp.com/"+BOT_TOKEN)
       updater.idle()
-   if __name__=="__main__":
-      main()
+   
+
     
       
       
