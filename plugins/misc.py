@@ -61,7 +61,7 @@ async def showid(client, message):
         )
 
 @Client.on_message(filters.command("crush"))
-async def aboutme(client, message):
+async def aboutcr(client, message):
         buttons= [[
             InlineKeyboardButton('♥️ 𝐅𝐚𝐭𝐡𝐢𝐦𝐚 ♥️', url='https://t.me/File_store_MsT_Bot')
             ],[
@@ -79,7 +79,7 @@ async def aboutme(client, message):
 @Client.on_message(filters.command("owner"))
 async def aboutme(client, message):
         buttons= [[
-            InlineKeyboardButton('♥️ 𝐅𝐚𝐭𝐡𝐢𝐦𝐚 ♥️', url='https://t.me/File_store_MsT_Bot')
+            InlineKeyboardButton('♥️ OWNER ♥️', url='https://t.me/Master_brooi')
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
