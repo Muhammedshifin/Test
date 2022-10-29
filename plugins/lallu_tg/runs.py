@@ -49,3 +49,20 @@ async def runs(_, message):
         await message.reply_to_message.reply_text(effective_string)
     else:
         await message.reply_text(effective_string)
+
+        
+        
+PROPOSES_TRINGS = (
+    "Found the reason for my smile, the day I found you. Will you let me be the reason for your smile?"
+    "In you, my life becomes whole, with you my days become bright. In your hands I would love to lay, this night and for the rest of my life!"
+    "You deserve the world and all the good things it has to offer. If I fail to find that world for you, I promise to give you mine!"
+    "Are you Google search engine? Because you’ve got everything I’ve been searching for in life."
+    "You are my North, my South, my East and West, the sun of my morning and the night to my day!"
+    "I would love for you to grow old with me! The best is yet to be and it begins from the moment you say yes!"
+    "I love the feeling and the butterflies I get when I see you smiling. I would love to smile for the rest of my life too. So, I say it's a yes?"
+    "You are the one I wanted to find, to tell that I need you all my life, from this day on till the rest of my life."
+    "Only you, you’re the only thing I’ll see forever. In my eyes, in my words, and in everything I do, your sight is the only sight that will ever bring me peace!"
+    "Because every long lost road, led me to where you are; others who broke my heart, they were like northern stars, guiding me on my way, into your loving arms, this much I know is true. God bless the broken road that led me straight to you."
+    "I love you just the way you are."
+    "Having you by my side is what completes me, makes me and fulfils me. You complete me. So marry me and complete the circle with me!"
+    "I want to be with you forever and ever. We are meant to be together."
