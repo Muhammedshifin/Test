@@ -52,6 +52,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 𝐍𝐚𝐦𝐞 : <a href=https://t.me/File_store_MsT_Bot><b>𝐅𝐚𝐭𝐡𝐢𝐦𝐚💝</b></a>
 𝐍𝐢𝐜𝐤 :  <a href=https://telegra.ph/file/d6cd8386ae2147c648fc8.jpg><b>𝐩𝐚𝐭𝐡𝐮𝐬𝐳𝐳🙈</b></a>
 𝐅𝐚𝐭𝐡𝐞𝐫 : <a href=https://telegra.ph/file/d59e30a3da92bbc7d8298.jpg><b>𝐍𝐨𝐭 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞</b></a>
+
 𝐀𝐠𝐞 : 𝐉𝐮𝐬𝐭 3 𝐌𝐨𝐧𝐭𝐡𝐬🎗
 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧 : 𝐈𝐬𝐥𝐚𝐦☺️
 𝐎𝐰𝐧𝐞𝐫 : <a href=https://t.me/Master_brooi><b>𝐌𝐚𝐒𝐓𝐞𝐑</b></a>"""
@@ -62,6 +63,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 𝐓𝐠 𝐍𝐚𝐦𝐞: <a href=https://telegra.ph/file/a6dd8bfdf1c8d664c8659.jpg><b>𝐌𝐚𝐒𝐓𝐞𝐑⚡️</b></a>
 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : <a href=https://t.me/Master_brooi><b>𝐃𝐨𝐧'𝐭 𝐒𝐡𝐚𝐫𝐞🎗🫂</b></a>
 𝐀𝐠𝐞 : <a href=https://telegra.ph/file/124b6dd5115a585784e81.jpg><b>16😅</b></a>
+📸𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : <a href=https://www.instagram.com/invites/contact/?i=1tlhmci677t5u&utm_content=pu5rlyi><b>𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞💝</b></a>
 𝐅𝐚𝐜𝐞 : <a href=https://t.me/myfacemst/3><b>𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞💝</b></a>
 𝐒𝐭𝐚𝐭𝐮𝐬 : <a href=https://telegra.ph/file/b449b01cf22260d2e17eb.jpg><b>𝐒𝐢𝐧𝐠𝐥𝐞😢</b></a>
 𝐏𝐥𝐚𝐜𝐞: <a href=https://telegra.ph/file/159a24cfe77f7bbb68723.jpg><b>𝐊𝐞𝐫𝐚𝐥𝐚 𝐌𝐥𝐏💥</b></a>
