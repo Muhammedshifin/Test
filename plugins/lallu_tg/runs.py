@@ -66,3 +66,17 @@ PROPOSES_TRINGS = (
     "I love you just the way you are."
     "Having you by my side is what completes me, makes me and fulfils me. You complete me. So marry me and complete the circle with me!"
     "I want to be with you forever and ever. We are meant to be together."
+)
+
+@Client.on_message(
+    filters.command("propose", COMMAND_HAND_LER) &
+    f_onw_fliter
+)
+async def runs(_, message):
+    """ /propose strings """
+    effective_string = random.choice(PROPOSES_TRINGS)
+    if message.reply_to_message:
+        await message.reply_to_message.reply_text(effective_string)
+    else:
+        await message.reply_text(effective_string)
+
