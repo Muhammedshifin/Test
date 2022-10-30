@@ -3,7 +3,7 @@ import shutil
 from pyrogram import Client, filters
 from telegram import ChatAction,InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext.dispatcher import run_async
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters,CallbackQueryHandler,PicklePersistence
+
 import logging
 import os
 from functools import wraps
