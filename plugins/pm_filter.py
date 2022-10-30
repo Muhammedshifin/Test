@@ -841,9 +841,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
             InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies')
             ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='report'),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ɴᴇxᴛ', callback_data='sticker')
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='help3')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾 2")
@@ -852,7 +852,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
        )
-        
+    elif query.data == "help3":
+        buttons = [[
             
             InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳', callback_data='corona'),
             InlineKeyboardButton('𝙰𝚄𝙳𝙸𝙾-𝙱𝙾𝙾𝙺', callback_data='abook'),
