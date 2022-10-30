@@ -86,7 +86,7 @@ def button(update,context):
     else:
         query.edit_message_text(text="⚠️ Something went wrong")
 
-persistence=PicklePersistence('userdata')
+
 def main():
     token=TOKEN 
     updater = Updater(token,use_context=True,persistence=persistence)
