@@ -813,7 +813,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'), 
             InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes'),
             InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image')
-            ],[
+            ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
+        await query.message.edit_text(
+            text=script.HELP_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+       )
+        
+        elif query.data == "help2":
+        buttons = [[
+            
             InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
             InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
             InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss')
