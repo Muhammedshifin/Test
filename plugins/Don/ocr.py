@@ -1,11 +1,18 @@
 import os
 import shutil
 from pyrogram import Client, filters
+from telegram import ChatAction,InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext.dispatcher import run_async
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters,CallbackQueryHandler,PicklePersistence
+import logging
+import os
+from functools import wraps
+import requests
 
 
+API_KEY = "c48ac0c94388957"
 
-
-
+TOKEN = "5725740361:AAFY0btKkJ5bPMk_jaap7DwJGkVX4nCTDBc"
 
 
 
@@ -15,10 +22,10 @@ from pyrogram import Client, filters
 
 
 @Client.on_message(
-    filters.command("telegraph") &
+    filters.command("ocr") &
     f_onw_fliter
 )
-async def telegraph(client, message):
+async def ocr(client, message):
     replied = message.reply_to_message
     if not replied:
         await message.reply_text("𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝙿𝙷𝙾𝚃𝙾 𝙾𝚁 𝚅𝙸𝙳𝙴𝙾 𝚄𝙽𝙳𝙴𝚁 𝟻𝙼𝙱.")
