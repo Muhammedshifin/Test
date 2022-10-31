@@ -64,8 +64,12 @@ PROPOSES_TRINGS = (
     "Only you, you’re the only thing I’ll see forever. In my eyes, in my words, and in everything I do, your sight is the only sight that will ever bring me peace..!",
     "Because every long lost road, led me to where you are; others who broke my heart, they were like northern stars, guiding me on my way, into your loving arms, this much I know is true. God bless the broken road that led me straight to you."
     "I love you just the way you are.",
-    "Having you by my side is what completes me, makes me and fulfils me. You complete me. So marry me and complete the circle with me!"
-    "I want to be with you forever and ever. We are meant to be together."
+    "Having you by my side is what completes me, makes me and fulfils me. You complete me. So marry me and complete the circle with me!",
+    "I want to be with you forever and ever. We are meant to be together.",
+    "I love you. I never wish to be parted from you, from this day on. Be mine through the thick and thin of life.",
+    "Hold my hand tight as I want to grow old with you from this day forth.",
+    "Hold my hand tight as I want to grow old with you from this day forth.",
+     "I love you always forever, near and far, closer together. Everywhere I will be with you, everything I will do for you.",
 )
 
 @Client.on_message(
