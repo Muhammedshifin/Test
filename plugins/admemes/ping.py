@@ -64,7 +64,8 @@ async def pure(_, message):
 @Client.on_message(filters.command("ikka", COMMAND_HAND_LER) & f_onw_fliter)
 async def pure(_, message):
     await message.sticker(
-        sticker="CAACAgUAAxkBAAJocmNfp7_K_XweKlB5zhPQ5Dh_Dy__AAL_AwACddYwVK1NaogVUwOJHgQ'
+        sticker="CAACAgUAAxkBAAJocmNfp7_K_XweKlB5zhPQ5Dh_Dy__AAL_AwACddYwVK1NaogVUwOJHgQ"
+    )
         
    
 
