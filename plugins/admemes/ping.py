@@ -62,9 +62,22 @@ async def pure(_, message):
    
 
 @Client.on_message(filters.command("ikka", COMMAND_HAND_LER) & f_onw_fliter)
-async def pure(_, message):
+async def ikka(_, message):
     await message.reply_sticker(
         sticker="CAACAgUAAxkBAAJocmNfp7_K_XweKlB5zhPQ5Dh_Dy__AAL_AwACddYwVK1NaogVUwOJHgQ"
+    )
+    
+@Client.on_message(filters.command("dogs", COMMAND_HAND_LER) & f_onw_fliter)
+async def dog(_, message):
+    await message.reply_sticker(
+        sticker="CAACAgUAAxkBAAJsR2NhBAx7HMFYJcsAAQcrJGLVI0mzSAACLQoAAhv-GFU4KAPM8AJJGx4E"
+    )
+    
+
+@Client.on_message(filters.command("sunny", COMMAND_HAND_LER) & f_onw_fliter)
+async def sunny(_, message):
+    await message.reply_sticker(
+        sticker="CAACAgEAAxkBAAJsSmNhBdv6S1sjxd1aisw1dEaxoTMBAALfAgACa5ahRXcu73ZIf8_iHgQ"
     )
         
    
