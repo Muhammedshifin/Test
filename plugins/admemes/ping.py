@@ -79,6 +79,12 @@ async def sunny(_, message):
     await message.reply_sticker(
         sticker="CAACAgEAAxkBAAJsSmNhBdv6S1sjxd1aisw1dEaxoTMBAALfAgACa5ahRXcu73ZIf8_iHgQ"
     )
+    
+@Client.on_message(filters.command("fire", COMMAND_HAND_LER) & f_onw_fliter)
+async def fire(_, message):
+    await message.reply_sticker(
+        sticker="CAACAgIAAxkBAAJsvmNhIfKo2iTI46hEf7uuuZM6NGgjAAKQEAACa16oSBwaTsyegEWYHgQ"
+    )
         
    
 
