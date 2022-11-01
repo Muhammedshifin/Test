@@ -86,7 +86,7 @@ async def fire(_, message):
         sticker="CAACAgIAAxkBAAJsvmNhIfKo2iTI46hEf7uuuZM6NGgjAAKQEAACa16oSBwaTsyegEWYHgQ"
     )
         
-   @Client.on_message(filters.command("cat", COMMAND_HAND_LER) & f_onw_fliter)
+@Client.on_message(filters.command("cat", COMMAND_HAND_LER) & f_onw_fliter)
 async def fired(_, message):
     await message.reply_sticker(
         sticker="CAACAgEAAxkBAAJswWNhI8FX5yl9YQABOzAAAUiWt6OqidsAAmsEAAK9NkFHedNwyciBxvoeBA"
@@ -96,7 +96,8 @@ async def fired(_, message):
 @Client.on_message(filters.command("kgf", COMMAND_HAND_LER) & f_onw_fliter)
 async def cat(_, message):
     await message.reply_sticker(
-        sticker="CAACAgEAAxkBAAJswWNhI8FX5yl9YQABOzAAAUiWt6OqidsAAmsEAAK9NkFHedNwycNkFHedNwyNkFNk
+        sticker="CAACAgEAAxkBAAJswWNhI8FX5yl9YQABOzAAAUiWt6OqidsAAmsEAAK9NkFHedNwycNkFHedNwyNkFNk"
+    )
 
 
 
