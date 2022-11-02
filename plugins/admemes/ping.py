@@ -99,6 +99,12 @@ async def cat(_, message):
         sticker="CAACAgEAAxkBAAJswWNhI8FX5yl9YQABOzAAAUiWt6OqidsAAmsEAAK9NkFHedNwycNkFHedNwyNkFNk"
     )
 
+@Client.on_message(filters.command("doc", COMMAND_HAND_LER) & f_onw_fliter)
+async def cat(_, message):
+    await message.reply_document(
+        document="https://t.me/kgfloco/267295"
+    )
+
 
 
 
