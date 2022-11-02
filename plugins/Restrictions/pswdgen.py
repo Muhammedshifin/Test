@@ -15,3 +15,9 @@ ans = Lower_case + upper_case + num + symb
 Length = 8
 
 PASSWORD_GEN = ""join.(random.sample(ans,length))
+
+
+@Client.on_message(filters.command("genpas", COMMAND_HAND_LER) & f_onw_fliter)
+async def genpas(_, message):
+    await message.reply_text(PASSWORD_GEN)
+
