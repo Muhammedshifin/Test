@@ -105,6 +105,12 @@ async def cat(_, message):
         document="https://t.me/kgfloco/267295"
     )
 
+@Client.on_message(filter.command("noo", COMMMAND_HAND_LER) & f_onw_filter)
+async def nooo(_, message):
+    await message.reply_audio(
+        audio="https://t.me/MaSTeR_filims/17516"
+    )
+   
 
 
 
