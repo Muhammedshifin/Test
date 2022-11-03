@@ -952,13 +952,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "owner":
+    elif query.data == "rmbgm":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.OWNER1_TXT,
+            text=script.RMBG_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -969,12 +969,54 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.STICKER_TXT,
+            text=script.STICKERG_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )  
-        
-        
+
+    elif query.data == "ping":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.PINGN_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )     
+     
+    elif query.data == "imdbm":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.IMDBB,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+     elif query.data == "fonts":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FONT_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )     
+    
+    elif query.data == "inlinese":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.INLINE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )  
+    
     elif query.data == "image":
         buttons= [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
