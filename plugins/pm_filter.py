@@ -878,6 +878,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
 
+     elif query.data == "help4":
+        buttons = [[
+            InlineKeyboardButton('ʀᴍʙɢ', callback_data='rmbgm'),
+            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pingg'),
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='stickerg')
+            ],[
+            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='imdbm'),
+            InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='fonts'),
+            InlineKeyboardButton('ᴍᴏᴠɪᴇs', callback_data='inlinese')
+            ],[
+            InlineKeyboardButton('ɢ-ᴛʀᴀɴs', callback_data='gtrans'),
+            InlineKeyboardButton('ꜰɪʟᴇ sᴛᴏʀᴇ', callback_data='newdata'),
+            InlineKeyboardButton(' ʟᴏᴠᴇʀ ', callback_data='crush')
+            ],[   
+        
         
     elif query.data == "hellp":
         buttons = [[
@@ -974,7 +989,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )  
 
-    elif query.data == "ping":
+    elif query.data == "pingg":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
         ]]
