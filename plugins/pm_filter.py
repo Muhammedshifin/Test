@@ -868,7 +868,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help3'),
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ɴᴇxᴛ', callback_data='start')
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='help4')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾 3")
@@ -879,22 +879,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
 
      elif query.data == "help4":
-        buttons = [[
-            InlineKeyboardButton('ʀᴍʙɢ', callback_data='rmbgm'),
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pingg'),
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='stickerg')
-            ],[
-            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='imdbm'),
-            InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='fonts'),
-            InlineKeyboardButton('ᴍᴏᴠɪᴇs', callback_data='inlinese')
-            ],[
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾 4")
-        await query.message.edit_text(
-            text=script.HELP_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
+         buttons = [[
+             InlineKeyboardButton('ʀᴍʙɢ', callback_data='rmbgm'),
+             InlineKeyboardButton('ᴘɪɴɢ', callback_data='pingg'),
+             InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='stickerg')
+             ],[
+             InlineKeyboardButton('ɪᴍᴅʙ', callback_data='imdbm'),
+             InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='fonts'),
+             InlineKeyboardButton('ᴍᴏᴠɪᴇs', callback_data='inlinese')
+             ],[
+         reply_markup = InlineKeyboardMarkup(buttons)
+         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾 4")
+         await query.message.edit_text(
+             text=script.HELP_TXT.format(query.from_user.mention),
+             reply_markup=reply_markup,
+             parse_mode='html'
+         )
             
         
     elif query.data == "hellp":
