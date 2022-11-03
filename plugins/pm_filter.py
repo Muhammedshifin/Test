@@ -888,11 +888,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='fonts'),
             InlineKeyboardButton('ᴍᴏᴠɪᴇs', callback_data='inlinese')
             ],[
-            InlineKeyboardButton('ɢ-ᴛʀᴀɴs', callback_data='gtrans'),
-            InlineKeyboardButton('ꜰɪʟᴇ sᴛᴏʀᴇ', callback_data='newdata'),
-            InlineKeyboardButton(' ʟᴏᴠᴇʀ ', callback_data='crush')
-            ],[   
-        
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾 4")
+        await query.message.edit_text(
+            text=script.HELP_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+            
         
     elif query.data == "hellp":
         buttons = [[
