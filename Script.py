@@ -99,10 +99,10 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 
 Eg :- /search cid moosa 2003"""
     
-   INLINE_TXT ="search inline and find movies"
+    INLINE_TXT ="search inline and find movies"
     
     
-   FONT_TXT"""𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐠𝐢𝐯𝐞 𝐲𝐨𝐮 𝐬𝐭𝐲𝐥𝐢𝐬𝐡 𝐟𝐨𝐧𝐭𝐬 ☺️
+    FONT_TXT"""𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐠𝐢𝐯𝐞 𝐲𝐨𝐮 𝐬𝐭𝐲𝐥𝐢𝐬𝐡 𝐟𝐨𝐧𝐭𝐬 ☺️
 
 𝐜𝐨𝐦𝐦𝐚𝐧𝐝
 
