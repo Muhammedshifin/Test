@@ -99,15 +99,15 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 
 Eg :- /search cid moosa 2003"""
     
-   INLINE_TXT ="""𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐆𝐢𝐯𝐞 𝐲𝐨𝐮 𝐚𝐥𝐥 𝐌𝐨𝐯𝐢𝐞 🎥
+   INLINE_TXT ="search inline and find movies"
 
-𝐂𝐨𝐦𝐦𝐚𝐧𝐝💝
 
-@Elsaa_MsT_bot Movie name
 
-Eg:- 
 
-@Elsaa_MsT_bot MINNAL murali 2021"""
+
+
+
+
     
     
    FONT_TXT"""𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐠𝐢𝐯𝐞 𝐲𝐨𝐮 𝐬𝐭𝐲𝐥𝐢𝐬𝐡 𝐟𝐨𝐧𝐭𝐬 ☺️
