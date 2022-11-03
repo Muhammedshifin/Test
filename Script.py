@@ -91,8 +91,24 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 
 𝐂𝐥𝐢𝐜𝐤 𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐁𝐮𝐭𝐭𝐨𝐧 𝐭𝐨 𝐠𝐞𝐭𝐭 𝐚𝐥𝐥 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬"""
     
+    IMDBB_TXT ="""𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐆𝐢𝐯𝐞 𝐲𝐨𝐮 𝐚𝐥𝐥 𝐌𝐨𝐯𝐢𝐞🎥 𝐝𝐞𝐚𝐭𝐚𝐢𝐥𝐬 𝐅𝐫𝐨𝐦 𝐈𝐌𝐃𝐁
+
+𝐂𝐨𝐦𝐦𝐚𝐧𝐝 🫂
+
+/search <movie Name>
+
+Eg :- /search cid moosa 2003"""
+    
+    INLINE_TXT"""𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐆𝐢𝐯𝐞 𝐲𝐨𝐮 𝐚𝐥𝐥 𝐌𝐨𝐯𝐢𝐞 🎥
+
+𝐂𝐨𝐦𝐦𝐚𝐧𝐝💝
+
+@Elsaa_MsT_bot <Movie name>
+
+Eg:- @Elsaa_MsT_bot MINNAL murali 2021"""
     
     
+   FONT_TXT
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
