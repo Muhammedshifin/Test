@@ -108,7 +108,16 @@ Eg :- /search cid moosa 2003"""
 Eg:- @Elsaa_MsT_bot MINNAL murali 2021"""
     
     
-   FONT_TXT
+   FONT_TXT"""𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐠𝐢𝐯𝐞 𝐲𝐨𝐮 𝐬𝐭𝐲𝐥𝐢𝐬𝐡 𝐟𝐨𝐧𝐭𝐬 ☺️
+
+𝐜𝐨𝐦𝐦𝐚𝐧𝐝
+
+/font
+
+Ente Any Text Eg:- /font [text]"""
+
+    PINGN_TXT"""HERE
+𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐠𝐞𝐭 𝐲𝐨𝐮𝐫 𝐜𝐮𝐫𝐫𝐞𝐧𝐭 𝐩𝐢𝐧𝐠 𝐮𝐬𝐢𝐧𝐠 /ping"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
