@@ -883,7 +883,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "hellp":
         buttons = [[
             InlineKeyboardButton('ʀᴍʙɢ', callback_data='rmbgm'),
-            InlineKeyboardButton('ᴏᴄʀ', callback_data='autofilter'),
+            InlineKeyboardButton('ᴏᴄʀ', callback_data='ocr'),
             InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='stickerg')
             ],[
             InlineKeyboardButton('ɪᴍᴅʙ', callback_data='imdbm'),
@@ -941,7 +941,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        
+    elif query.data == "ocr":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.OCR_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )  
     elif query.data == "stickerg":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
