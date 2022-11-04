@@ -898,7 +898,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='son'),
             InlineKeyboardButton('x ᴄʟᴏsᴇ x', callback_data='ttss')
             ],[
-            InlineKeutton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
+            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
