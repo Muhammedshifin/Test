@@ -882,16 +882,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "hellp":
         buttons = [[
-            InlineKeyboardButton('ʀᴍʙɢ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ʀᴍʙɢ', callback_data='rmbgm'),
             InlineKeyboardButton('ᴏᴄʀ', callback_data='autofilter'),
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='coct')
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='stickerg')
             ],[
-            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='songs'),
+            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='imdbm'),
             InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='extra'),
-            InlineKeyboardButton("ᴍᴏᴠɪᴇs", callback_data='video')
+            InlineKeyboardButton("ᴍᴏᴠɪᴇs", callback_data='inlinese')
+                         
             ],[
             InlineKeyboardButton('ʟʏʀɪᴄs', callback_data='pin'), 
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pastes'),
+            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pingg'),
             InlineKeyboardButton("ᴘʀᴏᴘᴏsᴇ", callback_data='image')
             ],[
             InlineKeyboardButton('x ᴄʟᴏsᴇ x', callback_data='fun'), 
