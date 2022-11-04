@@ -101,6 +101,7 @@ Eg :- /search cid moosa 2003"""
     
     INLINE_TXT ="search inline and find movies"
     
+    OCR_TXT ="𝐒𝐨𝐫𝐫𝐲 𝐭𝐡𝐢𝐬 𝐅𝐞𝐮𝐭𝐞𝐫𝐞 𝐜𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐧𝐨𝐭 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐬𝐨𝐦𝐞 𝐚 𝐜𝐨𝐝𝐞 𝐞𝐫𝐫𝐨𝐫𝐬"
     
     FONT_TXT ="""𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐠𝐢𝐯𝐞 𝐲𝐨𝐮 𝐬𝐭𝐲𝐥𝐢𝐬𝐡 𝐟𝐨𝐧𝐭𝐬 ☺️
 
