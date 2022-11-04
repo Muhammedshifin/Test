@@ -886,12 +886,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴏᴄʀ', callback_data='ocr'),
             InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='stickerg')
             ],[
-            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='imdbm'),
+            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='moana'),
             InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='font'),
             InlineKeyboardButton("ᴍᴏᴠɪᴇs", callback_data='inlinese')
                          
             ],[
-            InlineKeyboardButton('ʟʏʀɪᴄs', callback_data='pin'), 
+            InlineKeyboardButton('ʟʏʀɪᴄs', callback_data='lyrics'), 
             InlineKeyboardButton('ᴘɪɴɢ', callback_data='pingg'),
             InlineKeyboardButton("ᴘʀᴏᴘᴏsᴇ", callback_data='image')
             ],[
@@ -941,6 +941,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "lyrics":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.LYRICS_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "ocr":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start')
@@ -983,7 +993,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )     
      
-    elif query.data == "imdbm":
+    elif query.data == "moana":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
         ]]
