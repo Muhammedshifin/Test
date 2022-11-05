@@ -34,6 +34,8 @@ beautifulsoup4
 
 aiohttp==3.7.4
 
+pykeyboard
+
 gTTS
 
 googletrans==3.1.0a0
