@@ -893,11 +893,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ʟʏʀɪᴄs', callback_data='lyrics'), 
             InlineKeyboardButton('ᴘɪɴɢ', callback_data='pingg'),
-            InlineKeyboardButton("ᴘʀᴏᴘᴏsᴇ", callback_data='image')
+            InlineKeyboardButton("ᴘʀᴏᴘᴏsᴇ", callback_data='propose')
             ],[
-            InlineKeyboardButton('x ᴄʟᴏsᴇ x', callback_data='fun'), 
+            InlineKeyboardButton('x ᴄʟᴏsᴇ x', callback_data='start'), 
             InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='son'),
-            InlineKeyboardButton('x ᴄʟᴏsᴇ x', callback_data='ttss')
+            InlineKeyboardButton('x ᴄʟᴏsᴇ x', callback_data='start')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -982,6 +982,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "propose":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='hellp')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.PROPOSE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )  
     elif query.data == "stickerg":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
