@@ -93,15 +93,19 @@ async def fired(_, message):
     )
 
 
-@Client.on_message(filters.command("kgf", COMMAND_HAND_LER) & f_onw_fliter)
-async def cat(_, message):
+@Client.on_message(filters.command("tovino", COMMAND_HAND_LER) & f_onw_fliter)
+async def tovino(_, message):
     await message.reply_sticker(
-        sticker="CAACAgEAAxkBAAJswWNhI8FX5yl9YQABOzAAAUiWt6OqidsAAmsEAAK9NkFHedNwycNkFHedNwyNkFNk"
+        sticker="CAACAgUAAxkBAAJ152NmNwd6dgvVIfKASoODfQ-GNkRBAAIKBAACp9B4VrM1XKyih1FBHgQ"
     )
 
-@Client.on_message(filters.command("doc", COMMAND_HAND_LER) & f_onw_fliter)
-async def cat(_, message):
-    await message.reply_document(
-        document="https://t.me/kgfloco/267295"
+@Client.on_message(filters.command("lalettan", COMMAND_HAND_LER) & f_onw_fliter)
+async def lalet(_, message):
+    await message.reply_sticker(
+        sticker="CAACAgUAAxkBAAJ16mNmOBRfQOYTpboWDWT2jeWg_izSAALdAgACPbp5VkGP9J8vUSieHgQ"
     )
-
+Client.on_message(filters.command("couples", COMMAND_HAND_LER) & f_onw_fliter)
+async def copul(_, message):
+    await message.reply_sticker(
+        sticker="CAACAgEAAxkBAAJ17mNmOTVvNyxPIm0mb_2UYDctQB7gAAKkAwACdTeZROtRSXY1cRpLHgQ"
+    )
