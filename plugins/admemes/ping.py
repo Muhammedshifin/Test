@@ -104,7 +104,7 @@ async def lalet(_, message):
     await message.reply_sticker(
         sticker="CAACAgUAAxkBAAJ16mNmOBRfQOYTpboWDWT2jeWg_izSAALdAgACPbp5VkGP9J8vUSieHgQ"
     )
-Client.on_message(filters.command("couples", COMMAND_HAND_LER) & f_onw_fliter)
+@Client.on_message(filters.command("couples", COMMAND_HAND_LER) & f_onw_fliter)
 async def copul(_, message):
     await message.reply_sticker(
         sticker="CAACAgEAAxkBAAJ17mNmOTVvNyxPIm0mb_2UYDctQB7gAAKkAwACdTeZROtRSXY1cRpLHgQ"
