@@ -1020,7 +1020,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.IMDBB,
+            text=script.MOANA_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -1045,6 +1045,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.IMAGE_TXT.format(temp.B_NAME),
             disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "sourcec":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help2')
+            InlineKeyboardButton('♥️ INSTAGRAM ♥️', url='https://www.instagram.com/invites/contact/?i=1tlhmci677t5u&utm_content=pu5rlyi')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SOURCE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
