@@ -1051,7 +1051,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sourcec":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help2')
-            InlineKeyboardButton('♥️ INSTAGRAM ♥️', url='https://www.instagram.com/invites/contact/?i=1tlhmci677t5u&utm_content=pu5rlyi')
+            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
