@@ -59,14 +59,14 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
     
     OWNER1_TXT = """𝐇𝐞𝐫𝐞 𝐈𝐬 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫💝 𝐃𝐞𝐚𝐭𝐚𝐢𝐥𝐬👇
 
-𝐍𝐚𝐦𝐞 : <a href=https://telegra.ph/file/5621d992e59be9ecacbe9.jpg><b>𝐌𝐮𝐡𝐚𝐦𝐦𝐚𝐝 𝐬𝐡𝐢𝐟𝐢𝐧😌</b></a>
-𝐓𝐠 𝐍𝐚𝐦𝐞: <a href=https://telegra.ph/file/a6dd8bfdf1c8d664c8659.jpg><b>𝐌𝐚𝐒𝐓𝐞𝐑⚡️</b></a>
+𝐍𝐚𝐦𝐞 : <a href=https://graph.org/file/449089b83f26e0f7c464d.jpg><b>𝐌𝐮𝐡𝐚𝐦𝐦𝐚𝐝 𝐬𝐡𝐢𝐟𝐢𝐧😌</b></a>
+𝐓𝐠 𝐍𝐚𝐦𝐞: <a href=https://graph.org/file/12c4b12b2e72679deab64.jpg><b>𝐌𝐚𝐒𝐓𝐞𝐑⚡️</b></a>
 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : <a href=https://t.me/Master_brooi><b>𝐃𝐨𝐧'𝐭 𝐒𝐡𝐚𝐫𝐞🎗🫂</b></a>
-𝐀𝐠𝐞 : <a href=https://telegra.ph/file/124b6dd5115a585784e81.jpg><b>16😅</b></a>
+𝐀𝐠𝐞 : <a href=https://graph.org/file/9881439ff27b98785d38d.jpg><b>16😅</b></a>
 📸𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : <a href=https://www.instagram.com/invites/contact/?i=1tlhmci677t5u&utm_content=pu5rlyi><b>𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞💝</b></a>
-𝐅𝐚𝐜𝐞 : <a href=https://t.me/myfacemst/3><b>𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞💝</b></a>
-𝐒𝐭𝐚𝐭𝐮𝐬 : <a href=https://telegra.ph/file/b449b01cf22260d2e17eb.jpg><b>𝐒𝐢𝐧𝐠𝐥𝐞😢</b></a>
-𝐏𝐥𝐚𝐜𝐞: <a href=https://telegra.ph/file/159a24cfe77f7bbb68723.jpg><b>𝐊𝐞𝐫𝐚𝐥𝐚 𝐌𝐥𝐏💥</b></a>
+𝐅𝐚𝐜𝐞 : <a href=https://graph.org/file/f0c28a8ecfc2253355058.jpg><b>𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞💝</b></a>
+𝐒𝐭𝐚𝐭𝐮𝐬 : <a href=https://graph.org/file/324ce3cfe4ddd20ad1305.jpg><b>𝐒𝐢𝐧𝐠𝐥𝐞😢</b></a>
+𝐏𝐥𝐚𝐜𝐞: <a href=https://graph.org/file/8722e3f08aaed3b011a2c.jpg><b>𝐊𝐞𝐫𝐚𝐥𝐚 𝐌𝐥𝐏💥</b></a>
 𝐊𝐧𝐨𝐰𝐧 𝐋𝐚𝐮𝐧𝐠𝐚𝐠𝐞𝐬:𝐄𝐧𝐠𝐥𝐢𝐬𝐡 𝐌𝐚𝐥𝐚𝐲𝐚𝐥𝐦🎗"""
     
     RMBG_TXT ="""𝐌𝐲 𝐨𝐰𝐧𝐞𝐫💝 𝐢𝐬 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐢𝐧 𝐚𝐫𝐭𝐢𝐟𝐢𝐜𝐢𝐚𝐥 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐭𝐞⚡️
