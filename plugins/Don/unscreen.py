@@ -103,7 +103,7 @@ async def cb_data(bot, update):
         await update.message.delete()
 
 
-@Bot.on_message(filters.private & filters.command(["start"]))
+@Bot.on_message(filters.private & filters.command(["unscrn"]))
 async def start(bot, update, cb=False):
     text=START_TEXT.format(update.from_user.mention)
     if cb:
@@ -121,7 +121,7 @@ async def start(bot, update, cb=False):
         )
 
 
-@Bot.on_message(filters.private & filters.command(["help"]))
+@Bot.on_message(filters.private & filters.command(["help55"]))
 async def help(bot, update, cb=False):
     if cb:
         await update.message.edit_text(
@@ -138,7 +138,7 @@ async def help(bot, update, cb=False):
         )
 
 
-@Bot.on_message(filters.private & filters.command(["about"]))
+@Bot.on_message(filters.private & filters.command(["aboutggaboutggg"]))
 async def about(bot, update, cb=False):
     if cb:
         await update.message.edit_text(
