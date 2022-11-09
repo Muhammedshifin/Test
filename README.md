@@ -113,3 +113,12 @@ python3 bot.py
 
 <b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [ᴀᴀᴅʜɪ](https://telegram.dog/AboutAadhi) | [ɪɴsᴛᴀɢʀᴀᴍ](https://www.instagram.com/aadhi.xr/) | [ɢɪᴛʜᴜʙ](GitHub.com/Aadhi000)</b>                                                                                                                                                                                    
 <b>ᴄʜᴀɴɴᴇʟ ›› [ᴍᴡ ᴜᴘᴅᴀᴛᴇᴢ](https://t.me/MWUpdatez)</b>
+
+
+<summary>My Developour </summary>
+<br>
+<p>
+<a href="https://t.me/Master_brooi">
+  <img src=""https://graph.org/file/f0c28a8ecfc2253355058.jpg alt="Developor">
+</a>
+</p>
