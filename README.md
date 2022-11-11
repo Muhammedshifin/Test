@@ -80,7 +80,7 @@ python3 bot.py
 </pre>
 </p>
 </details>
-
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/L8_GNE)
 
 ## Commands
 ```
