@@ -114,6 +114,7 @@ python3 bot.py
 <b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [ᴀᴀᴅʜɪ](https://telegram.dog/AboutAadhi) | [ɪɴsᴛᴀɢʀᴀᴍ](https://www.instagram.com/aadhi.xr/) | [ɢɪᴛʜᴜʙ](GitHub.com/Aadhi000)</b>                                                                                                                                                                                    
 <b>ᴄʜᴀɴɴᴇʟ ›› [ᴍᴡ ᴜᴘᴅᴀᴛᴇᴢ](https://t.me/MWUpdatez)</b>
 
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=&branch=name&name=servicename)
 
 <summary>My Developour </summary>
 <br>
