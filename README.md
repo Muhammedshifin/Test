@@ -21,6 +21,7 @@
 - [x] IMDB
 - [x] Admin Commands
 - [x] Broadcast
+- [x] Group Broadcast 
 - [x] Index
 - [x] IMDB search
 - [x] Inline Search
