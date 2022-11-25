@@ -85,7 +85,20 @@ IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌IMDb Data:\n\n🏷𝐓𝐢𝐭𝐥𝐞: <a href={url}>{title}</a>\n🎭 𝐆𝐞𝐧𝐫𝐞𝐬: {genres}\n📆 𝐲𝐞𝐚𝐫:  <a href={url}/releaseinfo>{year}</a>\n🪩𝐃𝐢𝐫𝐞𝐜𝐭𝐨𝐫🪩 : <a herf={url}>{director}</a>\n📝𝐥𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬📝:<a href={url}/languages>{languages}</a>\n⏱𝐑𝐮𝐧𝐭𝐢𝐦𝐞⏱: <a herf={url}>{runtime}<a>\𝐌𝐢𝐧𝐮𝐭𝐞𝐬 🌟𝐑𝐚𝐭𝐢𝐧𝐠𝐬: <a href={url}/ratings>{rating}</a> / 10")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", """<b>Query: {query}</b> \n‌IMDb Data:<i><b>📟 Movie Name</b></i> : <i><b><a href={url}>{title}</a></b></i>
+<i><b>🗒️ Release Date</b></i> : <i><b>{release_date}</b></i>
+
+<i><b>📧 Votes</b></i> : <i><b>{votes}</b></i>
+<i><b>⏰ RunTime</b></i> : <i><b>{runtime} Minutes</b></i>
+<i><b>⭐ IMDB Rating</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i>
+<i><b>🎞️ Genres</b></i> : <i><b>{genres}</b></i>
+<i><b>🎬 Director</b></i> : <i><b>{director}</b></i>
+<i><b>📝 Writer</b></i> : <i><b>{writer}</b></i>
+<i><b>🔊 Languages</b></i> : <i><b>#{languages}</b></i>
+<i><b>💃🏻 Cast</b></i> : <b>{cast}</b></i>
+
+<i><b>👩🏻‍💻 Requested By</b></i> : <i><b>{message.from_user.mention}</b></i>
+<i><b>🚀 Group</b></i> : <i><b>{message.chat.title}</b></i>"
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -94,7 +107,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
-LOG_STR = "Current Cusomized Configurations are:-\n"
+LOG_STR = "Current Cusomized Configurations are:-\n"""
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
 LOG_STR += ("P_TTI_SHOW_OFF found , Users will be redirected to send /start to Bot PM instead of sending file file directly\n" if P_TTI_SHOW_OFF else "P_TTI_SHOW_OFF is disabled files will be send in PM, instead of sending start.\n")
 LOG_STR += ("SINGLE_BUTTON is Found, filename and files size will be shown in a single button instead of two seperate buttons\n" if SINGLE_BUTTON else "SINGLE_BUTTON is disabled , filename and file_sixe will be shown as diffrent buttons\n")
