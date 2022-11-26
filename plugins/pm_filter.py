@@ -1004,18 +1004,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )  
-    elif query.data == "sticercomm":
-        buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='stickerg')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.STICKERCOMMANDS,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )  
-    
-        
     elif query.data == "pingg":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='hellp')
