@@ -2,7 +2,7 @@ git+https://github.com/subinps/pyrogram@inline-m
 
 tgcrypto
 
-
+python-dotenv
 
 pymongo[srv]==3.11.4
 
