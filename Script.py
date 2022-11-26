@@ -91,6 +91,16 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 
 𝐂𝐥𝐢𝐜𝐤 𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐁𝐮𝐭𝐭𝐨𝐧 𝐭𝐨 𝐠𝐞𝐭𝐭 𝐚𝐥𝐥 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬"""
     
+    STICKERCOMMANDS ="""ʜᴇʀᴇ ɪs ᴍʏ sᴛɪᴄᴋᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ sᴇɴᴅ
+/ikka - For Mammokka Troll Sticker 
+/dogs - Cute dog stickers 
+/sunny - Fir sunny Leon stickers
+/fire - On Fire stickers
+/cat - Cute cat Stickers
+/lalettan - Foe Mohanlal stickers
+/tovino - Tovino Thomas stickers
+/couples - Cute Couples Stickers"""
+    
     MOANA_TXT ="""𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐆𝐢𝐯𝐞 𝐲𝐨𝐮 𝐚𝐥𝐥 𝐌𝐨𝐯𝐢𝐞🎥 𝐝𝐞𝐚𝐭𝐚𝐢𝐥𝐬 𝐅𝐫𝐨𝐦 𝐈𝐌𝐃𝐁
 
 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 🫂
