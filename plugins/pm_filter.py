@@ -996,7 +996,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stickerg":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='hellp')
-            InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅs', callback_data='sticercomm')
+            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
