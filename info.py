@@ -83,7 +83,21 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", """<i><b>{file_name}</b></i>
+
+<i><b>✯ File size </b></i>:<i><b> {file_size}</b></i>
+
+<i><b>✯ Uploaded By @MaSTeR_filims
+
+•────•────•────•
+
+Join ➪ @MaSTeR_filims
+
+Join ➪ @MaSTeR_filims
+
+•────•────•────•
+
+ᴊᴏɪɴ ★ ꜱʜᴀʀᴇ ★ ꜱᴜᴘᴘᴏʀᴛ</b></i>""")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "\n\n<i><b>📟 Movie Name</b></i> : <i><b><a href={url}>{title}</a></b></i> <i><b>\n🗒️ Release Date</b></i> : <i><b>{release_date}</b></i> \n\n<i><b>📧 Votes</b></i> : <i><b>{votes}</b></i> <i><b>\n⭐ IMDB Rating</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i> <i><b>\n🎞️ Genres</b></i> : <i><b>{genres}</b></i> <i><b> \n🎬 Director</b></i> : <i><b>{director}</b></i> <i><b>\n📝 Writer</b></i> : <i><b>{writer}</b></i> <i><b>\n🔊 Languages</b></i> : <i><b>#{languages}</b></i> <i><b>\n💃🏻 Cast</b></i> : <b>{cast}</b></i> <i><b>\n\n👩🏻‍💻 Requested By</b></i> : <i><b>{message.from_user.mention}</b></i> <i><b>\n🚀 Group</b></i> : <i><b>{message.chat.title}</b></i>")
 
