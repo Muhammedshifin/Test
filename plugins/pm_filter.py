@@ -75,7 +75,9 @@ from image.edit_5 import (  # pylint:disable=import-error
 BUTTONS = {}
 SPELL_CHECK = {}
 FILTER_MODE = {}
-
+#constants#
+MOVIE = "https://telegra.ph/file/085c379bd483cef730407.jpg"
+#constant end#
 @Client.on_message(filters.command('autofilter'))
 async def fil_mod(client, message): 
       mode_on = ["yes", "on", "true"]
@@ -249,8 +251,8 @@ async def advantage_spoll_choker(bot, query):
             InlineKeyboardButton('⌬ ɢʀᴏᴜᴘ ʜᴇʟᴘᴇʀ ⌬', url=f'https://t.me/Elsaa_MaSTeR_BoT')
         ]]
             k = await query.message.edit('<i><b>നിങ്ങൾ ആവശ്യപ്പെട്ട മൂവി എനിക്ക് എന്റെ ഡാറ്റാബേസിൽ നിന്നും കണ്ടെത്താൻ കഴിഞ്ഞില്ല ഈ മൂവി ഗ്രൂപ്പിൽ ആഡ് ചെയ്യാൻ വേണ്ടി മുകളിൽ കാണിച്ചതുപോലെ അഡ്മിൻ  മെൻഷൻ ചെയ്യുക📮 Mᴇɴᴛɪᴏɴ ➪  @admin Movie Name!    eg:-  @admin kgf 2 or Contact owner @Master_brooi</b></i>',reply_markup=InlineKeyboardMarkup(btn))    
-            k = await message.reply_photo(
-            photo=(PHOTO),    
+            await message.reply_photo(
+            photo=(MOVIE),    
             await asyncio.sleep(500)
             await k.delete()
 
