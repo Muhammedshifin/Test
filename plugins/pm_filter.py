@@ -246,7 +246,7 @@ async def advantage_spoll_choker(bot, query):
             await auto_filter(bot, query, k)
         else:
             btn = [[
-            InlineKeyboardButton('⌬ 𝗥𝗘𝗔𝗦𝗢𝗡𝗦 ⌬', callback_data='reqst11')
+            InlineKeyboardButton('⌬ ɢʀᴏᴜᴘ ʜᴇʟᴘᴇʀ ⌬', url=f'https://t.me/Elsaa_MaSTeR_BoT')
         ]]
             k = await query.message.edit('<i><b>നിങ്ങൾ ആവശ്യപ്പെട്ട മൂവി എനിക്ക് എന്റെ ഡാറ്റാബേസിൽ നിന്നും കണ്ടെത്താൻ കഴിഞ്ഞില്ല ഈ മൂവി ഗ്രൂപ്പിൽ ആഡ് ചെയ്യാൻ വേണ്ടി മുകളിൽ കാണിച്ചതുപോലെ അഡ്മിൻ  മെൻഷൻ ചെയ്യുക📮 Mᴇɴᴛɪᴏɴ ➪  @admin Movie Name!    eg:-  @admin kgf 2 or Contact owner @Master_brooi</b></i>',reply_markup=InlineKeyboardMarkup(btn))    
                  
