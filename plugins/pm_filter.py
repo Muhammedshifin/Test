@@ -250,11 +250,7 @@ async def advantage_spoll_choker(bot, query):
             btn = [[
             InlineKeyboardButton('⌬ ɢʀᴏᴜᴘ ʜᴇʟᴘᴇʀ ⌬', url=f'https://t.me/Elsaa_MaSTeR_BoT')
         ]]
-            k = reply_markup = InlineKeyboardMarkup(btn)
-            await message.reply_photo(
-            photo=(PHOTO1),    
-            caption=script.OWNER1_TXT.format(message.from_user.mention),
-            reply_markup=reply_markup
+            k = await query.message.edit('<i><b>നിങ്ങൾ ആവശ്യപ്പെട്ട മൂവി എനിക്ക് എന്റെ ഡാറ്റാബേസിൽ നിന്നും കണ്ടെത്താൻ കഴിഞ്ഞില്ല ഈ മൂവി ഗ്രൂപ്പിൽ ആഡ് ചെയ്യാൻ വേണ്ടി മുകളിൽ കാണിച്ചതുപോലെ അഡ്മിൻ  മെൻഷൻ ചെയ്യുക📮 Mᴇɴᴛɪᴏɴ ➪  @admin Movie Name!    eg:-  @admin kgf 2 or Contact owner @Master_brooi</b></i>',reply_markup=InlineKeyboardMarkup(btn))
             
             await asyncio.sleep(500)
             await k.delete()
