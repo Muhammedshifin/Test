@@ -249,9 +249,6 @@ async def advantage_spoll_choker(bot, query):
         else:
             btn = [[
             InlineKeyboardButton('⌬ ɢʀᴏᴜᴘ ʜᴇʟᴘᴇʀ ⌬', url=f'https://t.me/Elsaa_MaSTeR_BoT')
-            ],[
-            InlineKeyboardButton('ʀᴇᴀsᴏɴs', callback_data='reqst11')
-            InlineKeyboardButton('ɴᴇᴡ ᴍᴏᴠɪᴇs', url=f'https://t.me/sinimapremi')
         ]]
             k=await query.message.edit('<b><b>✯ നിങ്ങൾ ചോദിച്ച മൂവി റിലീസ് ആയിട്ടുണ്ടോ..? </b>\n\n✯ 𝗜𝗳 𝗶𝘁 𝗶𝘀 , 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁⚡️\n\n<b>', reply_markup=InlineKeyboardMarkup(btn))
             
