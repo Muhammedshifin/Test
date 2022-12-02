@@ -251,7 +251,7 @@ async def advantage_spoll_choker(bot, query):
             await auto_filter(bot, query, k)
         else:
             
-            k=await message.reply_photo(
+            k=await reply_photo(
                       photo=(MOVIE),
                       caption=(NOTFOUND),
                       reply_markup=InlineKeyboardMarkup(
