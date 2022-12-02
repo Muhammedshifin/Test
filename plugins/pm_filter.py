@@ -77,6 +77,9 @@ SPELL_CHECK = {}
 FILTER_MODE = {}
 #constants#
 MOVIE = "https://telegra.ph/file/085c379bd483cef730407.jpg"
+NOTFOUND ="✯ നിങ്ങൾ ചോദിച്ച മൂവി റിലീസ് ആയിട്ടുണ്ടോ..?"
+
+
 #constant end#
 @Client.on_message(filters.command('autofilter'))
 async def fil_mod(client, message): 
@@ -247,10 +250,20 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            btn = [[
-            InlineKeyboardButton('⌬ ɢʀᴏᴜᴘ ʜᴇʟᴘᴇʀ ⌬', url=f'https://t.me/Elsaa_MaSTeR_BoT')
-        ]]
-            k=await query.message.edit('<b><b>✯ നിങ്ങൾ ചോദിച്ച മൂവി റിലീസ് ആയിട്ടുണ്ടോ..? </b>\n\n✯ 𝗜𝗳 𝗶𝘁 𝗶𝘀 , 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁⚡️\n\n<b>', reply_markup=InlineKeyboardMarkup(btn))
+            
+            k=await message.reply_photo(
+                      photo=(MOVIE),
+                      caption=(NOTFOUND),
+                      reply_markup=InlineKeyboardMarkup(
+                                              [[
+                                                 InlineKeyboardButton('ᴄʜᴇᴄᴋ ᴩᴍ', url=f"https://t.me/{temp.U_NAME}"), 
+                                                 InlineKeyboardButton("ʙᴏᴛ oᴡɴᴇʀ", url="t.me/AFxSU")
+                                             ],[
+                                                 InlineKeyboardButton(" ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 📌", url="https://graph.org/%F0%9D%90%91%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%A4%F0%9D%90%9A-11-26")
+                                             ]] 
+                     ),
+                     parse_mode=enums.ParseMode.HTML
+              )
             
             await asyncio.sleep(500)
             await k.delete()
