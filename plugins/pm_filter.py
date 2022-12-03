@@ -262,7 +262,7 @@ async def advantage_spoll_choker(bot, query):
                                                  InlineKeyboardButton(" ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 📌", url="https://graph.org/%F0%9D%90%91%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%A4%F0%9D%90%9A-11-26")
                                              ]] 
                      ),
-                     parse_mode=enums.ParseMode.HTML
+                     parse_mode='html'
               )
             
             await asyncio.sleep(500)
