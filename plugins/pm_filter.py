@@ -267,7 +267,7 @@ async def advantage_spoll_choker(bot, query):
                      parse_mode='html'
               )
             
-            await asyncio.sleep(500)
+            await asyncio.sleep(50)
             await k.delete()
 
      
