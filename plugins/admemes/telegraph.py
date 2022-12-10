@@ -45,6 +45,7 @@ async def telegraph(client, message):
                 InlineKeyboardButton(text="✗ Close ✗", callback_data="close")
                 ]]
             )
+        )
     finally:
         shutil.rmtree(
             _t,
