@@ -16,6 +16,7 @@ try:
     BOT_TOKEN = environ['BOT_TOKEN']
     OWNER_ID = int(environ['OWNER_ID'])
 except KeyError:
+    pass
 # Optional Variable
 SUDO_USERS = environ.get("SUDO_USERS",str(OWNER_ID)).split()
 SUDO_USERS = [int(_x) for _x in SUDO_USERS]
