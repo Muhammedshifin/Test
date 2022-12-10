@@ -9,9 +9,7 @@ from plugins.helper_functions.get_file_id import get_file_id
 
 @Client.on_message(filters.command("telegraph") & filters.private)
 async def telegraph_upload(bot, update):
-    FSub = await ForceSub(bot, update)
-    if FSub == 400:
-        return
+    
     replied = update.reply_to_message
     if not replied:
         await update.reply_text("𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰 𝙿𝙷𝙾𝚃𝙾 𝙾𝚁 𝚅𝙸𝙳𝙴𝙾 𝚄𝙽𝙳𝙴𝚁 𝟻𝙼𝙱.")
