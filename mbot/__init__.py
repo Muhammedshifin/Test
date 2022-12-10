@@ -14,16 +14,12 @@ try:
     API_ID = int(environ['API_ID'])
     API_HASH = environ['API_HASH']
     BOT_TOKEN = environ['BOT_TOKEN']
-    OWNER_ID = int(environ['OWNER_ID'])
+    OWNER_ID = 1957296068 #int(environ['OWNER_ID'])
 except KeyError:
     pass
 # Optional Variable
-SUDO_USERS = environ.get("SUDO_USERS",str(OWNER_ID)).split()
-SUDO_USERS = [int(_x) for _x in SUDO_USERS]
-if OWNER_ID not in SUDO_USERS:
-    SUDO_USERS.append(OWNER_ID)
-AUTH_CHATS = environ.get('AUTH_CHATS',None ).split()
-AUTH_CHATS = [int(_x) for _x in AUTH_CHATS]
+SUDO_USERS = environ.get("SUDO_USERS",None)
+AUTH_CHATS = environ.get('AUTH_CHATS',None )
 LOG_GROUP = environ.get("LOG_GROUP", None)
 if LOG_GROUP:
     LOG_GROUP = int(LOG_GROUP)
