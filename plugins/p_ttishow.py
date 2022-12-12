@@ -55,17 +55,17 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply_video(
-                                                 video= WEVIDEO
-                                                 caption= 
+                                                 video=(WEVIDEO),
+                                                 caption=(f"<b>Hey ♥️ {u.mention}, Welcome to {message.chat.title}.../</b>")
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
                                                                             InlineKeyboardButton('ᴄʜᴇᴄᴋ ᴩᴍ', url=f"https://t.me/{temp.U_NAME}"), 
-                                                                            InlineKeyboardButton("ʙᴏᴛ oᴡɴᴇʀ", url="t.me/AFxSU")
+                                                                            InlineKeyboardButton("ʙᴏᴛ oᴡɴᴇʀ", url="https://t.me/Master_brooi")
                                                                         ],[
-                                                                            InlineKeyboardButton(" ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 📌", url="https://graph.org/%F0%9D%90%91%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%A4%F0%9D%90%9A-11-26")
+                                                                            InlineKeyboardButton(" ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 📌", url="https://graph.org/Filim-Home-Group-Rules-12-03")
                                                                         ]] 
                                                  ),
-                                                 parse_mode=enums.ParseMode.HTML
+                                                 parse_mode='html'
                 )
 
 
