@@ -10,6 +10,7 @@ from pyrogram.errors import ChatAdminRequired
 
 
 WEVIDEO = "https://t.me/Dynamic_DB/267317"
+WELCOMES = "hey bro welcome"
 """-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
@@ -56,7 +57,7 @@ async def save_group(bot, message):
                     pass
             temp.MELCOW['welcome'] = await message.reply_video(
                                                  video=(WEVIDEO),
-                                                 caption=(f"<b>Hey ♥️ {u.mention}, Welcome to {message.chat.title}.../</b>")
+                                                 caption=(WELCOMES),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
                                                                             InlineKeyboardButton('ᴄʜᴇᴄᴋ ᴩᴍ', url=f"https://t.me/{temp.U_NAME}"), 
