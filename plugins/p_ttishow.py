@@ -55,19 +55,7 @@ async def save_group(bot, message):
                     await (temp.MELCOW['welcome']).delete()
                 except:
                     pass
-            temp.MELCOW['welcome'] = await message.reply_video(
-                                                 video=(WEVIDEO),
-                                                 caption=(WELCOMES),
-                                                 reply_markup=InlineKeyboardMarkup(
-                                                                         [[
-                                                                            InlineKeyboardButton('ᴄʜᴇᴄᴋ ᴩᴍ', url=f"https://t.me/{temp.U_NAME}"), 
-                                                                            InlineKeyboardButton("ʙᴏᴛ oᴡɴᴇʀ", url="https://t.me/Master_brooi")
-                                                                        ],[
-                                                                            InlineKeyboardButton(" ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 📌", url="https://graph.org/Filim-Home-Group-Rules-12-03")
-                                                                        ]] 
-                                                 ),
-                                                 parse_mode='html'
-                )
+            temp.MELCOW['welcome'] = await message.reply(f"<b>Hey ♥️ {u.mention}, Welcome to {message.chat.title}.../</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
