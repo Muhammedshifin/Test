@@ -39,15 +39,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ᗩᗞᗞ ᗰᗴ Ꭲᝪ Ꭹᝪᑌᖇ Ꮐᖇᝪᑌᑭ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🌿 𝐆𝐫𝐨𝐮𝐩 🌿', url='https://t.me/MaSTeR_filims'),
-            InlineKeyboardButton('💥  𝐨𝐰𝐧𝐞𝐫 💥', callback_data='owner'),
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/MaSTeR_filims'),
+            InlineKeyboardButton(' ᴏᴡɴᴇʀ ', url='https://t.me/MaSTeR_filims')
             ],[      
-            InlineKeyboardButton('♻️ 𝐇𝐞𝐥𝐩 ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝐀𝐛𝐨𝐮𝐭 ♻️', callback_data='about')
+            InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about')
             ],[
-            
+            InlineKeyboardButton(' sᴜᴘᴘᴏʀᴛ ', url='https://t.me/botsupportgroupmst')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -82,14 +82,15 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ᗩᗞᗞ ᗰᗴ Ꭲᝪ Ꭹᝪᑌᖇ Ꮐᖇᝪᑌᑭ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🌿 𝐆𝐫𝐨𝐮𝐩 🌿', url='https://t.me/MaSTeR_filims'),
-            InlineKeyboardButton('💥  𝐨𝐰𝐧𝐞𝐫 💥', callback_data='owner'),
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/MaSTeR_filims'),
+            InlineKeyboardButton(' ᴏᴡɴᴇʀ ', url='https://t.me/MaSTeR_filims')
             ],[      
-            InlineKeyboardButton('♻️ 𝐇𝐞𝐥𝐩 ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝐀𝐛𝐨𝐮𝐭 ♻️', callback_data='about')
+            InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about')
             ],[
+            InlineKeyboardButton(' sᴜᴘᴘᴏʀᴛ ', url='https://t.me/botsupportgroupmst')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
