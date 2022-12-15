@@ -85,12 +85,12 @@ async def start(client, message):
             InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/MaSTeR_filims'),
-            InlineKeyboardButton(' ᴏᴡɴᴇʀ ', url='https://t.me/Master_brooi')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Master_brooi')
             ],[      
-            InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
-            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton(' sᴜᴘᴘᴏʀᴛ ', url='https://t.me/botsupportgroupmst')
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/botsupportgroupmst')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
