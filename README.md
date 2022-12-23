@@ -111,19 +111,15 @@ python3 bot.py
 * /ban  - to ban a user.
 * /unban  - to unban a user.
 * /channel - to get list of total connected channels
-* /broadcast - to broadcast a message to all Ajax users
+* /broadcast - to broadcast a message to all Wazeem users
+* /setskip - Set Indexing Nomber
+* /invite - Create Invite Link To a Specified Chat
+* /send - Send A Message to a User
 ```
 
-<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [ᴀᴀᴅʜɪ](https://telegram.dog/AboutAadhi) | [ɪɴsᴛᴀɢʀᴀᴍ](https://www.instagram.com/aadhi.xr/) | [ɢɪᴛʜᴜʙ](GitHub.com/Aadhi000)</b>                                                                                                                                                                                    
-<b>ᴄʜᴀɴɴᴇʟ ›› [ᴍᴡ ᴜᴘᴅᴀᴛᴇᴢ](https://t.me/MWUpdatez)</b>
+<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [𝐌𝐚𝐒𝐓𝐞𝐑](https://telegram.dog/Master_brooi) | [ɢɪᴛʜᴜʙ](GitHub.com/Muhammedshifin)</b>                                                                                                                                                                                    
+<b>ᴄʜᴀɴɴᴇʟ ›› [ᴜᴘᴅᴀᴛᴇᴢ](https://t.me/botsupportmst)</b>
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=
 )
 
-<summary>My Developour </summary>
-<br>
-<p>
-<a href="https://t.me/Master_brooi">
-  <img src=""https://graph.org/file/f0c28a8ecfc2253355058.jpg alt="Developor">
-</a>
-</p>
