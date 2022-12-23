@@ -40,6 +40,7 @@
 - [x] COVID Information
 - [x] File Store
 - [X] Image Editor
+- [X] Share Text
 
 ## Variables
 
@@ -75,7 +76,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Aadhi000/Ajax-Extra-Features
+git clone https://github.com/Muhammedshifin/Ajax-Extra-Features 
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -115,6 +116,7 @@ python3 bot.py
 * /setskip - Set Indexing Nomber
 * /invite - Create Invite Link To a Specified Chat
 * /send - Send A Message to a User
+* /grp_broadcast - Send Message To all Group
 ```
 
 <b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [𝐌𝐚𝐒𝐓𝐞𝐑](https://telegram.dog/Master_brooi) | [ɢɪᴛʜᴜʙ](GitHub.com/Muhammedshifin)</b>                                                                                                                                                                                    
