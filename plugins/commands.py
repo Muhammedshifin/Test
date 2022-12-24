@@ -549,3 +549,49 @@ async def send_msg(bot, message):
             await message.reply_text(f"<b>Error: {e}</b>")
     else:
         await message.reply_text("<b>Use this command as a reply to any message using the target chat id. For eg: /send userid</b>")
+
+        
+@Client.on_message(filters.command("deletefiles") & filters.user(ADMINS))
+async def deletemultiplefiles(bot, message):
+    btn = [[
+            InlineKeyboardButton("Delete PreDVDs", callback_data="predvd"),
+            InlineKeyboardButton("Delete CamRips", callback_data="camrip")
+          ]]
+    await message.reply_text(
+        text="<b>Select the type of files you want to delete !\n\nThis will delete 100 files from the database for the selected type.</b>",
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    
+    elif query.data == "predvd":
+        k = await client.send_message(chat_id=query.message.chat.id, text="<b>Deleting PreDVDs... Please wait...</b>")
+        files, next_offset, total = await get_bad_files(
+                                                  'predvd',
+                                                  offset=0)
+        deleted = 0
+        for file in files:
+            file_ids = file.file_id
+            result = await Media.collection.delete_one({
+                '_id': file_ids,
+            })
+            if result.deleted_count:
+                logger.info('PreDVD File Found ! Successfully deleted from database.')
+            deleted+=1
+        deleted = str(deleted)
+        await k.edit_text(text=f"<b>Successfully deleted {deleted} PreDVD files.</b>")
+
+    elif query.data == "camrip":
+        k = await client.send_message(chat_id=query.message.chat.id, text="<b>Deleting CamRips... Please wait...</b>")
+        files, next_offset, total = await get_bad_files(
+                                                  'camrip',
+                                                  offset=0)
+        deleted = 0
+        for file in files:
+            file_ids = file.file_id
+            result = await Media.collection.delete_one({
+                '_id': file_ids,
+            })
+            if result.deleted_count:
+                logger.info('CamRip File Found ! Successfully deleted from database.')
+            deleted+=1
+        deleted = str(deleted)
+        await k.edit_text(text=f"<b>Successfully deleted {deleted} CamRip files.</b>")
