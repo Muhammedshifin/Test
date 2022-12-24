@@ -562,7 +562,7 @@ async def deletemultiplefiles(bot, message):
         reply_markup=InlineKeyboardMarkup(btn)
     )
     
-    elif query.data == "predvd":
+   elif query.data == "predvd":
         k = await client.send_message(chat_id=query.message.chat.id, text="<b>Deleting PreDVDs... Please wait...</b>")
         files, next_offset, total = await get_bad_files(
                                                   'predvd',
@@ -579,7 +579,7 @@ async def deletemultiplefiles(bot, message):
         deleted = str(deleted)
         await k.edit_text(text=f"<b>Successfully deleted {deleted} PreDVD files.</b>")
 
-    elif query.data == "camrip":
+   elif query.data == "camrip":
         k = await client.send_message(chat_id=query.message.chat.id, text="<b>Deleting CamRips... Please wait...</b>")
         files, next_offset, total = await get_bad_files(
                                                   'camrip',
