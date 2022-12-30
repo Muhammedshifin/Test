@@ -202,8 +202,50 @@ async def next_page(bot, query):
                     callback_data=f'files_#{file.file_id}',
                 ),
             ]
+files, n_offset, total = await get_search_results(search, offset=offset, filter=True)
+    try:
+        n_offset = int(n_offset)
+    except:
+        n_offset = 0
+
+    if not files:
+        return
+    settings = await get_settings(query.message.chat.id)
+    if settings['button']:
+        btn = [
+            [
+                InlineKeyboardButton(
+                    text=f"❍ [{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                ),
+            ]
             for file in files
         ]
+    else:
+        btn = [
+            [
+                InlineKeyboardButton(
+                    text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
+                ),
+                InlineKeyboardButton(
+                    text=f"❍ {get_size(file.file_size)}",
+                    callback_data=f'files_#{file.file_id}',
+                ),
+            ]
+            for file in files
+        ]
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f' ♀️ {search} ♀️ ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
+         ]
+    )
 
     if 0 < offset <= 10:
         off_set = 0
@@ -213,20 +255,20 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("⬅️ 𝗕𝗮𝗰𝗸", callback_data=f"next_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}",
+            [InlineKeyboardButton("⪻ 𝓑𝓪𝓬𝓴", callback_data=f"next_{req}_{key}_{off_set}"),
+             InlineKeyboardButton(f"ρꪖᧁꫀ {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
-            [InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{req}_{key}_{n_offset}")])
+            [InlineKeyboardButton(f"{math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
+             InlineKeyboardButton("𝓝𝓮𝔁𝓽 ⪼", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("⬅️ 𝗕𝗮𝗰𝗸", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("⪻ 𝓑𝓪𝓬𝓴", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton(f" {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
+                InlineKeyboardButton("𝓝𝓮𝔁𝓽 ⪼", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -236,6 +278,7 @@ async def next_page(bot, query):
     except MessageNotModified:
         pass
     await query.answer()
+
 
 
 @Client.on_callback_query(filters.regex(r"^spolling"))
