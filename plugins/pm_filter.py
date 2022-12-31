@@ -266,7 +266,7 @@ async def advantage_spoll_choker(bot, query):
                       caption=(NOTFOUND),
                       reply_markup=InlineKeyboardMarkup(
                                               [[
-                                                 InlineKeyboardButton('ᴄʜᴇᴄᴋ ᴩᴍ', url=f"https://t.me/{temp.U_NAME}"), 
+                                                 InlineKeyboardButton('♻️ ᴍᴀʟʏᴀʟᴀᴍ  ♻️', callback_data="trtoml"),
                                                  InlineKeyboardButton("ʙᴏᴛ oᴡɴᴇʀ", url="https://t.me/Master_brooi")
                                              ],[
                                                  InlineKeyboardButton(" ʜᴏᴡ ᴛᴏ ᴍᴇɴᴛɪᴏɴ​ ᴀᴅᴍɪɴ​", url="https://graph.org/How-To-Get-Movies-From-Bot-12-03")
@@ -786,6 +786,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tinfo":
         await query.answer("▣ ᴛɪᴘs ▣\n\n★ ᴛʏᴘᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ (ɢᴏᴏɢʟᴇ)\n\n★ ɪғ ʏᴏᴜ ɴᴏᴛ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ ɪɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ᴛʜᴇ ɴᴇxᴛ sᴛᴇᴘ ɪs ᴄʟɪᴄᴋ ɴᴇxᴛ ʙᴜᴛᴛᴏɴ.\n\n★ ᴄᴏɴᴛɪɴᴜᴇ ᴛʜɪs ᴍᴇᴛʜᴏᴅ ᴛᴏ ɢᴇᴛᴛɪɴɢ ʏᴏᴜ ғɪʟᴇ\n\n❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴀᴢᴇᴇᴍ ⚡️", show_alert=True)
 
+    elif query.data == "trtoml":
+        await query.answer("➠ ക്ഷമിക്കണം ഈ മൂവി എന്റെ കയ്യിൽ ഇല്ല...😢\n\n➠ മൂവി ബോട്ടിൽ ആഡ് ചെയ്യാത്തതോ അല്ലെങ്കിൽ മൂവി ഇറങ്ങിട്ടില്ലാത്തതുകൊണ്ടോ ആണ്..\n\n➠ മൂവി ഇറങ്ങി എന്ന് ഉറപ്പാണെങ്കിൽ 'admin' നെ 'Mention' ചെയ്യുക\n\n➠ 'Mention' ചെയ്യേണ്ട രീതി തായെ കാണുന്ന 'How to Mention' എന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്യുക..", show_alert=True)
     elif query.data == "predvd":
         k = await client.send_message(chat_id=query.message.chat.id, text="<b>Deleting PreDVDs... Please wait...</b>")
         files, next_offset, total = await get_bad_files(
