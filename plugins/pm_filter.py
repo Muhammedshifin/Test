@@ -269,7 +269,7 @@ async def advantage_spoll_choker(bot, query):
                                                  InlineKeyboardButton('ᴄʜᴇᴄᴋ ᴩᴍ', url=f"https://t.me/{temp.U_NAME}"), 
                                                  InlineKeyboardButton("ʙᴏᴛ oᴡɴᴇʀ", url="https://t.me/Master_brooi")
                                              ],[
-                                                 InlineKeyboardButton(" ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ 📌", url="https://graph.org/How-To-Get-Movies-From-Bot-12-03")
+                                                 InlineKeyboardButton(" ʜᴏᴡ ᴛᴏ ᴍᴇɴᴛɪᴏɴ​ ᴀᴅᴍɪɴ​", url="https://graph.org/How-To-Get-Movies-From-Bot-12-03")
                                              ]] 
                      ),
                      parse_mode='html'
