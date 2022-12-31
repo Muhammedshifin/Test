@@ -266,7 +266,7 @@ async def advantage_spoll_choker(bot, query):
                       caption=(NOTFOUND),
                       reply_markup=InlineKeyboardMarkup(
                                               [[
-                                                 InlineKeyboardButton('♻️ ᴍᴀʟʏᴀʟᴀᴍ  ♻️', callback_data="trtoml"),
+                                                 InlineKeyboardButton('♻️ ᴍᴀʟʏᴀʟᴀᴍ  ♻️', 'trtoml'),
                                                  InlineKeyboardButton("ʙᴏᴛ oᴡɴᴇʀ", url="https://t.me/Master_brooi")
                                              ],[
                                                  InlineKeyboardButton(" ʜᴏᴡ ᴛᴏ ᴍᴇɴᴛɪᴏɴ​ ᴀᴅᴍɪɴ​", url="https://graph.org/How-To-Get-Movies-From-Bot-12-03")
