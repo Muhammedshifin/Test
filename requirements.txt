@@ -27,7 +27,7 @@ youtube-dl
 youtube_search
 
 requests
-
+Wikipedia
 googletrans==3.1.0a0
 
 telegraph
