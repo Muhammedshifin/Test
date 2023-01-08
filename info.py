@@ -44,16 +44,16 @@ BOT_TOKEN = "5725740361:AAFSEVMisTsNSK6ZmY_Z_mOB3RMgMD5J3IY"
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_fliter = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'https://telegra.ph/file/85298dff67a70a8f13cac.jpg https://telegra.ph/file/86e717de1ac1b14adcad3.jpg')).split()
+PICS = (environ.get('PICS' ,'https://telegra.ph/file/85298dff67a70a8f13cac.jpg https://telegra.ph/file/86e717de1ac1b14adcad3.jpg https://telegra.ph/file/12fd8e4838fa0c3881bf2.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1957296068').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001397421526').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
-AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
+AUTH_CHANNEL = "-1001678874073"
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 USE_AS_BOT = environ.get("USE_AS_BOT", True)
 
@@ -78,8 +78,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ajax_Files')
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
+LOG_CHANNEL = "-1001684591826"
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'botsupportgroupmst')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
@@ -97,7 +97,7 @@ Join ➪ @MaSTeR_filims
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "\n\n<i><b>📟 Movie Name</b></i> : <i><b><a href={url}>{title}</a></b></i> <i><b>\n🗒️ Release Date</b></i> : <i><b>{release_date}</b></i> \n\n<i><b>📧 Votes</b></i> : <i><b>{votes}</b></i> <i><b>\n⭐ IMDB Rating</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i> <i><b>\n🎞️ Genres</b></i> : <i><b>{genres}</b></i> <i><b> \n🎬 Director</b></i> : <i><b>{director}</b></i> <i><b>\n📝 Writer</b></i> : <i><b>{writer}</b></i> <i><b>\n🔊 Languages</b></i> : <i><b>#{languages}</b></i> <i><b>\n💃🏻 Cast</b></i> : <b>{cast}</b></i> <i><b>\n\n👩🏻‍💻 Requested By</b></i> : <i><b>{message.from_user.mention}</b></i> <i><b>\n🚀 Group</b></i> : <i><b>{message.chat.title}</b></i>")
 
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001822340681').split()]
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", "4")
