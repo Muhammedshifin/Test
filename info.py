@@ -37,13 +37,13 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = "18302370"
+API_HASH = "03c2cced4dea9b1e96dce87558dd2381"
+BOT_TOKEN = "5725740361:AAFSEVMisTsNSK6ZmY_Z_mOB3RMgMD5J3IY"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
+USE_CAPTION_fliter = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS' ,'https://telegra.ph/file/85298dff67a70a8f13cac.jpg https://telegra.ph/file/86e717de1ac1b14adcad3.jpg')).split()
 
 # Admins, Channels & Users
