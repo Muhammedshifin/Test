@@ -140,6 +140,7 @@ async def vsong(client, message: Message):
     capy = f"""
 **𝚃𝙸𝚃𝙻𝙴 :** [{thum}]({mo})
 **𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙱𝚈 :** {message.from_user.mention}
+**@ᴄᴄᴏᴍ_ᴛᴇᴀᴍ**
 """
     await client.send_video(
         message.chat.id,
@@ -149,10 +150,9 @@ async def vsong(client, message: Message):
         thumb=sedlyf,
         caption=capy,
         supports_streaming=True,        
-        reply_to_message_id=message.message_id 
+        reply_to_message_id=message.id 
     )
     await pablo.delete()
     for files in (sedlyf, file_stark):
         if files and os.path.exists(files):
             os.remove(files)
-
