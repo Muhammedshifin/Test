@@ -552,6 +552,14 @@ async def send_msg(bot, message):
 
 @Client.on_message(filters.command("deletefiles") & filters.user(ADMINS))
 async def deletemultiplefiles(bot, message):
+    btn = [[
+            InlineKeyboardButton("Delete PreDVDs", callback_data="predvd"),
+            InlineKeyboardButton("Delete CamRips", callback_data="camrip")
+          ]]
+    await message.reply_text(
+        text="<b>Select the type of files you want to delete !\n\nThis will delete 100 files from the database for the selected type.</b>",
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
     chat_type = message.chat.type
     if chat_type != enums.ChatType.PRIVATE: #No need to use this command on groups
         return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command won't work in groups. It only works on my PM !</b>")
@@ -559,7 +567,7 @@ async def deletemultiplefiles(bot, message):
         pass
     try:
         keyword = message.text.split(" ", 1)[1] #extracting keyword from command
-    except: #if extracting failed #Joel Tgx
+    except: #if extracting failed
         return await message.reply_text(f"<b>Hey {message.from_user.mention}, Give me a keyword along with the command to delete files.</b>")
     k = await bot.send_message(chat_id=message.chat.id, text=f"<b>Fetching Files for your query {keyword} on DB... Please wait...</b>")
     files, next_offset, total = await get_bad_files(keyword) #fetching files from db
