@@ -98,8 +98,7 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "\n\n<i><b>📟 Movie Name</b></i> : <i><b><a href={url}>{title}</a></b></i> <i><b>\n🗒️ Release Date</b></i> : <i><b>{release_date}</b></i> \n\n<i><b>📧 Votes</b></i> : <i><b>{votes}</b></i> <i><b>\n⭐ IMDB Rating</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i> <i><b>\n🎞️ Genres</b></i> : <i><b>{genres}</b></i> <i><b> \n🎬 Director</b></i> : <i><b>{director}</b></i> <i><b>\n📝 Writer</b></i> : <i><b>{writer}</b></i> <i><b>\n🔊 Languages</b></i> : <i><b>#{languages}</b></i> <i><b>\n💃🏻 Cast</b></i> : <b>{cast}</b></i> <i><b>\n\n👩🏻‍💻 Requested By</b></i> : <i><b>{message.from_user.mention}</b></i> <i><b>\n🚀 Group</b></i> : <i><b>{message.chat.title}</b></i>")
 
 
-SHORTENR_URL = environ.get('SHORTENR_URL', 'tnlink.in')
-SHORTNER_API = environ.get('SHORTNER_API', 'c13b388666076a3ac039e1de8f211e9ae66fe88e')
+
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001822340681').split()]
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
