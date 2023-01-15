@@ -39,7 +39,7 @@ class evamaria(Client):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = "18302370"
 API_HASH = "03c2cced4dea9b1e96dce87558dd2381"
-BOT_TOKEN = environ['BOT_TOKEN']
+BOT_TOKEN = "5968161650:AAH4EHp5UkYBkLGOSZJi_2xCSbL8ev66zoI"
 
 
 
@@ -72,7 +72,7 @@ TG_MAX_SELECT_LEN = environ.get("TG_MAX_SELECT_LEN", "100")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', '')
+DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://Mst:Mst@cluster0.wviiykt.mongodb.net/?retryWrites=true&w=majority')
 DATABASE_NAME = environ.get('DATABASE_NAME', "Elsaabotsmst")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ajax_Files')
 
